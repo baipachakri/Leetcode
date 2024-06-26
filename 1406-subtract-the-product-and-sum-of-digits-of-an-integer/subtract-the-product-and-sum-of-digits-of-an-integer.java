@@ -1,13 +1,12 @@
 class Solution {
     public int subtractProductAndSum(int n) {
-        int summ =0,proo =1,result;
+        int sum =0,product =1;
         while(n!=0){
-            summ +=n%10;
-            proo *=n%10;
+            sum +=n%10;
+            product *=n%10;
             n=n/10;
         }
-        result = proo- summ;
-        return result;
+        return product-sum;
     }
 
 }
