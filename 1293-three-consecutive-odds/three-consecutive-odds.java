@@ -10,7 +10,7 @@ class Solution {
            else if(arr[i]%2 == 0 ){
             count = 0;
            }
-        if(count>=3){
+        if(count==3){
             return true;
         }
         else{
